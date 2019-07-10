@@ -9,6 +9,9 @@ type State = {};
 export default class Index extends Component<RouterProps, State> {
 
     leftNav: LeftNav | null = null;
+    gameLoad(){
+        window.open('https://entry.v2910.com/4/201900202/1/11795/3','blank')
+    }
 
     render() {
         return (
@@ -19,6 +22,13 @@ export default class Index extends Component<RouterProps, State> {
                     <div className ='content-vedio'/>
                     <div className ='content-longon'>
                         <Longon />
+                    </div>
+                    <div className ='content-huodong'>
+                        <div className ='btn_ddz' onClick={()=>this.gameLoad()}>立即前往</div>
+                        <div className ='btn_qhb' onClick={()=>this.gameLoad()}>立即前往</div>
+                    </div>
+                    <div className ='content-ddzds'>
+                        <div className ='btn_ddz' onClick={()=>this.gameLoad()}>立即前往</div>
                     </div>
                 </div>
             </div>

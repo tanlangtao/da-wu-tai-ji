@@ -9,13 +9,65 @@
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 auto;
+    .content-vedio{
+        width: 100%;
+        height: 500px;
+    }
+    .content-longon{
+        width: 100%;
+        height: 450px;
+    }
+    .content-huodong{
+        width: 100%;
+        height: 480px;
+        display: flex;
+        align-items: flex-end;
+        .btn_ddz{
+            width: 15%;
+            height: 50px;
+            margin-left: 25%;
+            background: url(../../../access/index/yellowBtn.png);
+            background-size: 100% 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            color: #7b4e3c;
+            cursor: pointer;
+        }
+        .btn_qhb{
+            width: 15%;
+            height: 50px;
+            margin-left: 20%;
+            background: url(../../../access/index/yellowBtn.png);
+            background-size: 100% 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            color: #7b4e3c;
+            cursor: pointer;
+        }
+    }
+    .content-ddzds{
+        width: 100%;
+        height:600px;
+        display: flex;
+        align-items: flex-end;
+        .btn_ddz{
+            width: 15%;
+            height: 50px;
+            margin-left: 50%;
+            background: url(../../../access/index/yellowBtn.png);
+            background-size: 100% 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            color: #7b4e3c;
+            cursor: pointer;
+        }
+    }
 }
-.content-vedio{
-    width: 100%;
-    height: 500px;
-}
-.content-longon{
-    width: 100%;
-    height: 450px;
-    border: 1px solid red;
-}
+
+

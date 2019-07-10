@@ -20,18 +20,18 @@ export default class Header extends Component<Props,State>{
 
     public toPage2=()=>{ this.runTo(900) }
 
-    public toPage3=()=>{ this.runTo(1500) }
+    public toPage3=()=>{ this.runTo(1350) }
 
-    public toPage4=()=>{ this.runTo(2100) }
+    public toPage4=()=>{ this.runTo(2000) }
 
-    public toPage5=()=>{ this.runTo(2798) }
+    public toPage5=()=>{ this.runTo(2600) }
 
     public componentDidMount(){
         this.mScroll = document.scrollingElement;
         let self = this;
         window.addEventListener('scroll',()=>{
             self.setState({
-                scroll:this.mScroll!.scrollTop
+                scroll:self.mScroll!.scrollTop
             })
         })
     }
@@ -73,22 +73,22 @@ export default class Header extends Component<Props,State>{
                     </li>
                     <li className='leftNav-li' >
                         <span className='leftNav-duanxian'/>
-                        <span className={scroll>=1500?'current-span':'leftNav-span'}  onClick={this.toPage3}>
-                            <i className={scroll>=1500?'current-yuanquan':'leftNav-yuanquan'}/>
+                        <span className={scroll>=1350?'current-span':'leftNav-span'}  onClick={this.toPage3}>
+                            <i className={scroll>=1350?'current-yuanquan':'leftNav-yuanquan'}/>
                             斗地主比赛
                         </span>
                     </li>
                     <li className='leftNav-li' >
                         <span className='leftNav-duanxian'/>
-                        <span className={scroll>=2100?'current-span':'leftNav-span'}  onClick={this.toPage4}>
-                            <i className={scroll>=2100?'current-yuanquan':'leftNav-yuanquan'}/>
+                        <span className={scroll>=2000?'current-span':'leftNav-span'}  onClick={this.toPage4}>
+                            <i className={scroll>=2000?'current-yuanquan':'leftNav-yuanquan'}/>
                             红包大赛
                         </span>
                     </li>
                     <li className='leftNav-li leftNav-li5' >
                         <span className='leftNav-duanxian'/>
-                        <span className={scroll>=2798?'current-span':'leftNav-span'}  onClick={this.toPage5}>
-                            <i className={scroll>=2798?'current-yuanquan':'leftNav-yuanquan'}/>
+                        <span className={scroll>=2600?'current-span':'leftNav-span'}  onClick={this.toPage5}>
+                            <i className={scroll>=2600?'current-yuanquan':'leftNav-yuanquan'}/>
                             五大创新
                         </span>
                         <span className='leftNav-changxian'/>

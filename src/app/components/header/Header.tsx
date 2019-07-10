@@ -15,7 +15,6 @@ export default class Header extends Component<Props,State>{
                     <ul  className='header-ul'>
                         <li className='header-li'>进入官网</li>
                         <li className='header-li' onClick={()=>this.app.leftNav!.runTo(300)}>下载游戏</li>
-                        <li className='header-li' onClick={()=>this.app.leftNav!.runTo(300)}>注册账号</li>
                         <li className='header-li'>
                             <img className='image' src={require(`../../../access/index/hk.png`)} alt=""/>
                         </li>
