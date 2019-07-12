@@ -1,0 +1,25 @@
+.comContent-box2{
+    background: white;
+    width: 100%;
+    min-width: 1040px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+    .comContent-img{
+        width: 20%;
+    }
+    ul{
+        margin-top: 30px;
+        list-style: none;
+        width: 1040px;
+        display: flex;
+        justify-content: space-between;
+        li{
+            width: 15%;
+            text-align: center;
+        }
+    }
+}

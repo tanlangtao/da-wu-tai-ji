@@ -1,0 +1,62 @@
+.success{
+    width: 100%;
+    .success-title{
+        width: 100%;
+        min-width: 1040px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        .p1{
+            font-size: 25px;
+            font-weight: bold;
+            span{
+                color: rgb(84,84,83);
+                font-family: 'Didot';
+            }
+        }
+    }
+    .success-img{
+        width: 100%;
+        min-width: 1040px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        ul{
+            list-style: none;
+            width: 100%;
+            li{
+                width: 20%;
+                float: left;
+                overflow: hidden;
+                position: relative;
+                .success-div{
+                    transition: 800ms;
+                    width: 200%;
+                    position: relative;
+                    left: 0;
+                    img{
+                        width: 50%;
+                    }
+                }
+                .success-div:hover{
+                    transition: 800ms;
+                    width: 200%;
+                    position: relative;
+                    left: -100%;
+                    img{
+                        width: 50%;
+                    }
+                }   
+            }
+        }
+    }
+}
+
+
+
+
+

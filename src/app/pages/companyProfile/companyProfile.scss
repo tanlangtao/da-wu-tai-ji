@@ -1,0 +1,38 @@
+.com{
+    width: 100%;
+    background: rgb(247,247,247);
+    .comContent{
+        width: 100%;
+        min-width: 1040px;
+        padding-top: 20px;
+        border-top: 1px solid black;
+        .comContent-box1{
+            margin: 0 auto;
+            width: 60%;
+            min-width: 1040px;
+            height: 800px;
+            h2{
+                height: 50px;
+                line-height: 50px;
+            }
+            ul{
+                list-style: none;
+                display: flex;
+                height: 40px;
+                width: 70%;
+                justify-content: space-between;
+                li{
+                    width: 20%;
+                    height: 100%;
+                    background:  rgb(192,32,29);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                }
+            }
+        }
+        
+    }
+    
+}
